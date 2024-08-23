@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="Alert('Olá, seja bem vindo ao site calculadora JS')">
+
+    <h1>Calculadora JS</h1>
+    <br>
+    <br>
+    <label for="txt_n1">Informe 1º numero:</label>
+    <input type="text" name="txt_n1" id="txt_n1">
+    <br><br>
+    <label for="txt_n2">Informe 2º numero:</label>
+    <input type="text" name="txt_n2" id="txt_n2">
+    <br><br>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">dividir</button>
+    <button onclick="somar()">somar</button>
+    <button onclick="subtrair()">subtrair</button>
+    <br><br>
+    <p>Resultado da operação: <span id="span_resultado">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
